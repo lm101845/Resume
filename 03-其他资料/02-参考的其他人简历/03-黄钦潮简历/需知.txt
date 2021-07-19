@@ -1,0 +1,14 @@
+需知：
+1.请先打开node项目根目录下app.js文件，阅读后端代码后可以知道连接了数据库，默认连的是我的数据库，如果想要修改的同学请自行修改，并使用一下sql创建表（只有一张表哈哈哈）-------- CREATE TABLE `client` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(20) NOT NULL,
+  `create_time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `is_delete` int(11) DEFAULT '0',
+  `contact` varchar(30) DEFAULT NULL,
+  `comment` text,
+  `company` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=28 DEFAULT CHARSET=utf8mb4;--------------
+2.为了实现邮件发送功能，需要申请自己邮箱的授权码且需要使用nodemailer模块，相关用法请自行百度或阅读我的代码（超简单的好吧）
+3.打开node后端服务代码，命令行输入---node app.js---将项目跑起来 ， 端口为3000
+4.先打开前端项目npm run serve ，打开src==>views==>home.vue组件==> 164行后自行修改留言ip地址，可先改成本地ip（你的ip+端口号）方便测试，等后端服务部署到自己的公网服务器后再修改成公网的
