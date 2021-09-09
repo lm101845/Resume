@@ -1,8 +1,8 @@
 <!--
  * @Author: liming
  * @Date: 2021-09-09 00:40:42
- * @LastEditTime: 2021-09-09 08:31:14
- * @FilePath: \04-简历项目部署阿里云服务器\01-项目部署实战\02-代码手敲\vue_font\src\App.vue
+ * @LastEditTime: 2021-09-09 23:18:28
+ * @FilePath: \01-项目部署实战\02-代码手敲\vue_font\src\App.vue
 -->
 <template>
    <ul>
@@ -21,8 +21,8 @@ export default {
       }
   },
   mounted() {
-    //   axios.get('http://localhost:3000/api/users').then(response=>{
-      axios.get('http://lm2048.top:3000/api/users').then(response=>{
+    //   axios.get('http://localhost:3001/api/users').then(response=>{
+      axios.get('http://lm2048.top:3001/api/users').then(response=>{
           this.users = response.data
       })
   }
