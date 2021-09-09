@@ -1,7 +1,7 @@
 /*
  * @Author: liming
  * @Date: 2021-09-08 23:29:59
- * @LastEditTime: 2021-09-09 00:52:43
+ * @LastEditTime: 2021-09-09 23:07:44
  * @FilePath: \01-项目部署实战\02-代码手敲\vue_back\server.js
  */
 
@@ -25,6 +25,6 @@ let server = http.createServer(function (req, res) {
     }
 })
 
-server.listen(3000, () => {
+server.listen(3001, () => {
     console.log('后端API接口服务器已经启动在3000端口上了');
 })
