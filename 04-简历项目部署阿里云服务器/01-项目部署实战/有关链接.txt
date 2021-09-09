@@ -1,5 +1,0 @@
-vue项目和nodejs项目部署实战 nginx+docker持续集成
-
-https://www.bilibili.com/video/BV1u3411r7dp?from=search&seid=12430605894504205947
-
-看到第12min42s

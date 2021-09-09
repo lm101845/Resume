@@ -1,0 +1,12 @@
+vue项目和nodejs项目部署实战 nginx+docker持续集成
+
+https://www.bilibili.com/video/BV1u3411r7dp?from=search&seid=12430605894504205947
+
+看到第12min42s
+
+这个视频感觉非常好，用了Node搭建后天，使用Vue2搭建前台，并且前台通过Axios简单的拿了一些后台的数据。
+(后台就只有一些users数据，前台通过v-for进行了一下简单的遍历)
+
+还搭建了一个web_webhook服务器，这个服务器的作用是：GitHub收到通知后，会请求这个服务器进行持续的构建。
+使用webhook完成自动化部署(https://zhuanlan.zhihu.com/p/93223263)
+
