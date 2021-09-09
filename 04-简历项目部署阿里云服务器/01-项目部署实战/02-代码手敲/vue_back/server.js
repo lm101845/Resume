@@ -1,16 +1,16 @@
 /*
  * @Author: liming
  * @Date: 2021-09-08 23:29:59
- * @LastEditTime: 2021-09-09 23:19:11
+ * @LastEditTime: 2021-09-09 23:38:24
  * @FilePath: \01-项目部署实战\02-代码手敲\vue_back\server.js
  */
 
 let http = require('http')
 
 let users = [
-    { id: '01', name: 'zhangsan' },
-    { id: '02', name: 'lisi' },
-    { id: '03', name: 'wangwu' },
+    { id: '001', name: 'zhangsan' },
+    { id: '002', name: 'lisi' },
+    { id: '003', name: 'wangwu' },
 ]
 // 这里老师没有用express等Web框架，用原生来写的，我为了不找事，也就按老师写的来吧。
 let server = http.createServer(function (req, res) {
